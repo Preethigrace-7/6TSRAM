@@ -7,7 +7,7 @@ This project presents an energy-efficient 6T SRAM cell design at the 130nm node,
 The energy-efficient 6T SRAM cell design presented in this project focuses on achieving stability and low power consumption, essential for reliable operation in AI-driven applications. This design addresses challenges like process variability and power dissipation, making it suitable for integrating systems that demand sustainable performance, like GPU caches, edge AI accelerators, and inference engines. The project explores the principle of generation, implementation, issues, improvements, and future scope of this optimized SRAM design.
 
 For more detailed information, please refer to the full project documentation:  
-[Project Paper](./documentation/VSDHACKATHON_Preethigrace.pdf)
+[Project Paper](./Documentation/VSDHACKATHON_Preethigrace.pdf)
 
 ## Project Structure
 
