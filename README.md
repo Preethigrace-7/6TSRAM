@@ -9,13 +9,6 @@ The energy-efficient 6T SRAM cell design presented in this project focuses on ac
 For more detailed information, please refer to the full project documentation:  
 [Project Paper](./Documentation/VSDHACKATHON_Preethigrace.pdf)
 
-## Project Structure
-
-- `src/`: Contains the source code for the SRAM design and simulation.
-- `documentation/`: Contains the full project paper and additional reference materials.
-- `simulation/`: Simulation files for testing the SRAM design.
-- `results/`: Includes graphs and data related to the simulations.
-
 
 
 
