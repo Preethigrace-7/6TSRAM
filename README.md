@@ -10,6 +10,7 @@ For more detailed information, please refer to the full project documentation:
 [Project Paper](./Documentation/VSDHACKATHON_Preethigrace.pdf)
 
 ## Block diagram of 6T SRAM CELL
+![Project Screenshot](https://github.com/Preethigrace-7/6TSRAM/blob/main/Images/BLOCK%20DIAGRAM.png)?raw=true)
 
 ## Circuit diagram of 6T SRAM CELL
 ![Project Screenshot](https://github.com/Preethigrace-7/6TSRAM/blob/main/Images/Schematic_page-0001.jpg)?raw=true)
