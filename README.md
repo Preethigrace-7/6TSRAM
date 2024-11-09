@@ -124,3 +124,21 @@ To run simulations on your netlist file (`6TSRAM.cir`), follow these steps:
 
 Following these steps will allow you to load and simulate the netlist file in Ngspice.
 
+## Pre-Layout Simulation
+
+To perform the pre-layout simulation of the 6T SRAM, follow these steps:
+
+1. **Clone the Repository and Set Up Files**:
+   - Make sure Git is installed. Open the terminal and type:
+
+     ```bash
+     sudo apt install -y git
+     ```
+   - Clone the repository:
+
+     ```bash
+     git clone https://github.com/Preethigrace-7/6TSRAM
+     ```
+  
+
+     
