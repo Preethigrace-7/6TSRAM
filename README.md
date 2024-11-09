@@ -36,24 +36,57 @@ For more detailed information, please refer to the full project documentation:
 | **IDD (EN=1)**              | Supply current when enabled                                   | 20      |          | 30      | μA       | VDD = 3.3V, T = 27°C                                                  |
 | **IDD (EN=0)**              | Supply current when disabled                                  | 0.1     |          | 1       | μA       | VDD = 3.3V, T = 27°C                                                  |
 
-## Tools Used and Steps to Reproduce Waveforms for the 6T SRAM Project
+## Tools Used and Steps to Reproduce All Waveforms(Tools allowed are xschem/eSim/ngspice)
 
-This project uses **Ngspice**, an open-source mixed-signal circuit simulator, and **eSim** and **xschem** for circuit design and simulation. Follow the steps below to set up Ngspice, run simulations, and generate the necessary waveforms for analyzing the performance of the 6T SRAM cell.
+This project utilizes **eSim** and **Ngspice** for circuit simulation and waveform analysis. Below are the installation instructions and steps to run simulations on both Ubuntu and Windows OS.
 
-### Tools Overview
+### Tool Installation
 
-- **Ngspice**: A powerful, open-source circuit simulator suitable for both analog and digital circuit simulation.
-- **eSim/xschem**: Open-source tools that facilitate schematic capture and design, compatible with Ngspice for simulation.
+#### eSim Installation on Ubuntu
 
----
+1. **Download eSim Installer**: Download the latest eSim installer from [eSim Downloads](http://esim.fossee.in/downloads) and save it to a local directory.
+   
+2. **Unpack the Installer**:
+   - Open the terminal, navigate to the download directory, and use the following command to unpack the installer:
 
-### Installing Ngspice
+     ```bash
+     unzip eSim-2.4.zip
+     ```
 
-#### For Ubuntu
+3. **Install eSim and Dependencies**:
+   - After unpacking, run the following commands in the terminal to install eSim:
 
-1. Open your terminal.
-2. Install Ngspice by entering the following command:
+     ```bash
+     cd eSim-2.4
+     chmod +x install-eSim.sh
+     ./install-eSim.sh --install
+     ```
+
+4. **Launch eSim**:
+   - To start eSim, type in the terminal:
+
+     ```bash
+     esim
+     ```
+
+   - Alternatively, you can double-click the eSim icon created on your Desktop.
+
+#### Ngspice Installation on Ubuntu
+
+1. Open your terminal and enter the following command to install Ngspice:
 
    ```bash
    sudo apt-get install -y ngspice
 
+   #### eSim Installation on Windows
+
+1. **Download eSim Installer**: Download `eSim-2.4 installer.exe` from [eSim Downloads](https://esim.fossee.in/downloads).
+2. **Disable Antivirus**: Disable any active antivirus temporarily to avoid interference during installation.
+3. **Adjust Path for MinGW or MSYS**:
+   - If MinGW or MSYS is already installed, remove them from the `PATH` environment variable to prevent conflicts with eSim.
+4. **Run the Installer**:
+   - Double-click the `.exe` file to start the installation. Click **Yes** if prompted by a permission window to proceed.
+5. **Default Installation Path**:
+   - eSim will install by default in the `C` drive under a folder named `FOSSEE`. Ensure the installation path does not contain spaces or reside in "Program Files".
+6. **Launch eSim**:
+   - An eSim icon will be created on the Desktop upon installation. Double-click the icon to start eSim.
