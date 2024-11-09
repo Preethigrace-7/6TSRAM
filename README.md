@@ -94,7 +94,7 @@ This project utilizes **eSim** and **Ngspice** for circuit simulation and wavefo
 
 ### Running the Simulation
 
-To run simulations on your netlist file (`6TSRAM1.cir`), follow these steps:
+To run simulations on your netlist file (`6TSRAM.cir`), follow these steps:
 
 1. **Enter the Ngspice Shell**:
    - Open the terminal and type:
@@ -104,10 +104,10 @@ To run simulations on your netlist file (`6TSRAM1.cir`), follow these steps:
      ```
 
 2. **Load and Simulate the Netlist**:
-   - To simulate the `6TSRAM1.cir` file, type:
+   - To simulate the `6TSRAM.cir` file, type:
 
      ```bash
-     ngspice 1 -> source 6TSRAM1.cir
+     ngspice 1 -> source 6TSRAM.cir
      ```
 
 3. **Exit Ngspice Shell**:
