@@ -12,13 +12,13 @@ For more detailed information, please refer to the full project documentation:
 ## Block diagram of 6T SRAM CELL
 
 <div align="center">
-  <img src="https://github.com/Preethigrace-7/6TSRAM/blob/main/Images/BLOCK%20DIAGRAM.png" alt="Project Screenshot" width="400">
+  <img src="https://github.com/Preethigrace-7/6TSRAM/blob/main/Images/BLOCK%20DIAGRAM.png" alt="Project Screenshot">
 </div>
 
 ## Circuit diagram of 6T SRAM CELL
 
 <div align="center">
-  <img src="https://github.com/Preethigrace-7/6TSRAM/blob/main/Images/Schematic_page-0001.jpg" alt="Circuit Diagram" width="400">
+  <img src="https://github.com/Preethigrace-7/6TSRAM/blob/main/Images/Schematic_page-0001.jpg" alt="Circuit Diagram">
 </div>
 
 
