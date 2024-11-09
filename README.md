@@ -91,3 +91,36 @@ This project utilizes **eSim** and **Ngspice** for circuit simulation and wavefo
    - eSim will install by default in the `C` drive under a folder named `FOSSEE`. Ensure the installation path does not contain spaces or reside in "Program Files".
 6. **Launch eSim**:
    - An eSim icon will be created on the Desktop upon installation. Double-click the icon to start eSim.
+
+### Running the Simulation
+
+To run simulations on your netlist file (`6TSRAM1.cir`), follow these steps:
+
+1. **Enter the Ngspice Shell**:
+   - Open the terminal and type:
+
+     ```bash
+     ngspice
+     ```
+
+2. **Load and Simulate the Netlist**:
+   - To simulate the `6TSRAM1.cir` file, type:
+
+     ```bash
+     ngspice 1 -> source 6TSRAM1.cir
+     ```
+
+3. **Exit Ngspice Shell**:
+   - To exit the Ngspice shell, use either of the following commands:
+
+     ```bash
+     ngspice 1 -> exit
+     ```
+   - or
+
+     ```bash
+     ngspice 1 -> quit
+     ```
+
+Following these steps will allow you to load and simulate the netlist file in Ngspice.
+
