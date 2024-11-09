@@ -77,8 +77,9 @@ This project utilizes **eSim** and **Ngspice** for circuit simulation and wavefo
 
    ```bash
    sudo apt-get install -y ngspice
+   ```
 
-   #### eSim Installation on Windows
+## eSim Installation on Windows
 
 1. **Download eSim Installer**: Download `eSim-2.4 installer.exe` from [eSim Downloads](https://esim.fossee.in/downloads).
 2. **Disable Antivirus**: Disable any active antivirus temporarily to avoid interference during installation.
