@@ -22,21 +22,19 @@ For more detailed information, please refer to the full project documentation:
 </div>
 
 ## 6T SRAM Performance Parameters
-| Parameter  | Description                                        | Min    | Type    | Max    | Unit   | Condition                                      |
-|------------|----------------------------------------------------|--------|---------|--------|--------|------------------------------------------------|
-| RL         | Load resistance at Vbgp terminal                  | 100    |         |        | Mohm   | VDD=3.3V, T=27C                                |
-| CL         | Load capacitance at Vbgp terminal                 |        |         | 50     | pF     | VDD=2.7V - 3.6V, T=-40C - 125C, RL=100M        |
-| Vbgp       | Output Reference voltage                          | 1.2013 | 1.2056  | 1.2070 | V      | T=-40 to 140C, VDD=3.3V                        |
-| Vbgp       | Output Reference voltage                          | 1.1698 | 1.2056  | 1.2234 | V      | VDD=2.7V to VDD=3.6V, T=27C                    |
-| TC_vbgp    | Temperature Coefficient of Vbgp                   |        | 26.2663 |        | ppm/C  | T=-40 to 125C, VDD=3.3V                        |
-| VC_vbgp    | Voltage Coefficient of Vbgp                       |        | 5.9555  |        | %/V    | VDD=2.7V to 3.7, T=27C                         |
-| Tstart     | Start up time                                     |        | 3.3     |        | us     | Vdd=3.3V, T=27C, CL=50pF                       |
-| VDD        | Supply Voltage                                    | 3.2    | 3.3     | 3.6    | V      | T=-40C to 125C                                 |
-| IDD        | Supply Current                                    |        | 22.4760 |        | uA     | EN=1                                          |
-| IDD        | Supply Current                                    |        | 95.3950 |        | pA     | EN=0                                          |
 
-
-
+| **Parameter**              | **Description**                                               | **Min**  | **Type** | **Max**  | **Unit** | **Condition**                                                        |
+|----------------------------|---------------------------------------------------------------|---------|----------|---------|----------|----------------------------------------------------------------------|
+| **Technology**              | 130 nm CMOS Process                                           |         |          |         |          |                                                                      |
+| **RL**                      | Load resistance at output terminal                            | 100     |          |         | MΩ       | VDD = 3.3V, T = 27°C                                                 |
+| **CL**                      | Load capacitance at output terminal                           |         |          | 50      | pF       | VDD = 2.7V - 3.6V, T = -40°C - 125°C, RL = 100MΩ                       |
+| **Vdd**                     | Supply voltage                                                | 3.2     | 3.3      | 3.6     | V        | T = -40°C to 125°C                                                    |
+| **Vout**                    | Output reference voltage (V)                                  | 1.0     | 1.2      | 1.4     | V        | VDD = 3.3V, T = 27°C                                                  |
+| **Tc_vout**                 | Temperature coefficient of output voltage                     |         | 20       |         | ppm/°C   | T = -40°C to 125°C, VDD = 3.3V                                        |
+| **Vc_vout**                 | Voltage coefficient of output voltage                         |         | 5        |         | %/V      | VDD = 2.7V to 3.6V, T = 27°C                                          |
+| **Tstart**                  | Start-up time                                                 |         | 3.0      |         | μs       | VDD = 3.3V, T = 27°C, RL = 100MΩ, CL = 50pF                            |
+| **IDD (EN=1)**              | Supply current when enabled                                   | 20      |          | 30      | μA       | VDD = 3.3V, T = 27°C                                                  |
+| **IDD (EN=0)**              | Supply current when disabled                                  | 0.1     |          | 1       | μA       | VDD = 3.3V, T = 27°C                                                  |
 
 
 
