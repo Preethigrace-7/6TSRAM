@@ -36,5 +36,24 @@ For more detailed information, please refer to the full project documentation:
 | **IDD (EN=1)**              | Supply current when enabled                                   | 20      |          | 30      | μA       | VDD = 3.3V, T = 27°C                                                  |
 | **IDD (EN=0)**              | Supply current when disabled                                  | 0.1     |          | 1       | μA       | VDD = 3.3V, T = 27°C                                                  |
 
+## Tools Used and Steps to Reproduce Waveforms for the 6T SRAM Project
 
+This project uses **Ngspice**, an open-source mixed-signal circuit simulator, and **eSim** and **xschem** for circuit design and simulation. Follow the steps below to set up Ngspice, run simulations, and generate the necessary waveforms for analyzing the performance of the 6T SRAM cell.
+
+### Tools Overview
+
+- **Ngspice**: A powerful, open-source circuit simulator suitable for both analog and digital circuit simulation.
+- **eSim/xschem**: Open-source tools that facilitate schematic capture and design, compatible with Ngspice for simulation.
+
+---
+
+### Installing Ngspice
+
+#### For Ubuntu
+
+1. Open your terminal.
+2. Install Ngspice by entering the following command:
+
+   ```bash
+   sudo apt-get install -y ngspice
 
