@@ -140,5 +140,19 @@ To perform the pre-layout simulation of the 6T SRAM, follow these steps:
      git clone https://github.com/Preethigrace-7/6TSRAM
      ```
   
+## Contributors
+
+- Preethi Grace Manthena
+
+## Acknowledgments
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. — for Hackathon opportunity
+- Sumanto Kar, Assistant Project Manager, IIT Bombay — for Open Source Tools support
+
+## Contact Information
+
+- Preethi Grace Manthena — preethigracemanthena@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. — kunalghosh@gmail.com
+- Sumanto Kar, Assistant Project Manager, IIT Bombay
 
      
